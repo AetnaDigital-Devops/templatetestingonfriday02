@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "access.management"
+  description: "this is a test"
+  annotations:
+    github.com/project-slug: satishbforcvs/templatetestingonfriday02
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "inception"
